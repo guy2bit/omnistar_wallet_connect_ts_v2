@@ -1,15 +1,26 @@
 {
-  "name": "omni_wallet_connect_ts_v2",
-  "version": "0.1.0",
-  "private": true,
+  "name": "omnistar_walletconnect_ts_v2",
+  "version": "0.1.7",
+  "private": false,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "omnistar_blockchain_js": "^0.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@walletconnect/sign-client": "^2.2.1",
+    "awesome-debounce-promise": "^2.1.0",
+    "react-async-hook": "^4.0.0",
+    "react-redux": "^8.0.5",
+    "use-constant": "^1.1.1",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.2",
+    "@web3modal/standalone": "^2.0.0-rc.2",
+    "cosmos-wallet": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
